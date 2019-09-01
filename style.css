@@ -38,7 +38,7 @@ a:hover{
 }
 
 .logo{
-    background-image: url('./images/logo.jpg');
+    background-image: url('images/logo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -51,7 +51,7 @@ a:hover{
 }
 
 .background1{
-    background-image: url('./images/home.jpg');
+    background-image: url('images/home.jpg');
     background-position: 0px -165px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -60,7 +60,7 @@ a:hover{
 }
 
 .background2{
-    background-image: url('./images/about.jpg');
+    background-image: url('images/about.jpg');
     background-position: 0px -50px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -69,7 +69,7 @@ a:hover{
 }
 
 .background3{
-    background-image: url('./images/characters.jpg');
+    background-image: url('images/characters.jpg');
     background-position: 0px -65px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -78,7 +78,7 @@ a:hover{
 }
 
 .background4{
-    background-image: url('./images/comics.jpg');
+    background-image: url('images/comics.jpg');
     background-position: 0px -60px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -87,7 +87,7 @@ a:hover{
 }
 
 .background5{
-    background-image: url('./images/movies.jpg');
+    background-image: url('images/movies.jpg');
     background-position: 0px -80px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -96,7 +96,7 @@ a:hover{
 }
 
 .background6{
-    background-image: url('./images/threats.jpg');
+    background-image: url('images/threats.jpg');
     background-position: 0px -90px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -105,7 +105,7 @@ a:hover{
 }
 
 .background7{
-    background-image: url('./images/tvshows.jpg');
+    background-image: url('images/tvshows.jpg');
     background-position: 0px -150px;
     background-position-x: -50px;
     background-size: 1366px;
@@ -114,7 +114,7 @@ a:hover{
 }
 
 .background8{
-    background-image: url('./images/x-universe.jpg');
+    background-image: url('images/x-universe.jpg');
     background-repeat: no-repeat;
     background-size: 1366px;
     color: White;
@@ -124,92 +124,92 @@ a:hover{
 /*section*/
 
 .features1{
-    background-image: url('./images/background1.jpg');
+    background-image: url('images/background1.jpg');
     background-size: 100%;
     flex-wrap: wrap;
     height: 2800px;
 }
 
 .features2-1{
-    background-image: url('./images/background2.jpg');
+    background-image: url('images/background2.jpg');
     background-size: 100%;
     height: 1350px;
 }
 
 .features2-2{
-    background-image: url('./images/background2.jpg');
+    background-image: url('images/background2.jpg');
     background-size: 100%;
     height: 2000px;
 }
 
 .features3-1{
-    background-image: url('./images/background3.jpg');
+    background-image: url('images/background3.jpg');
     background-size: 100%;
     height: 2360px;
 }
 
 .features3-2{
-    background-image: url('./images/background3.jpg');
+    background-image: url('images/background3.jpg');
     background-size: 100%;
     height: 3410px;
 }
 
 .features4-1{
-    background-image: url('./images/background4.jpg');
+    background-image: url('images/background4.jpg');
     background-size: 100%;
     height: 1600px;
 }
 
 .features4-2{
-    background-image: url('./images/background4.jpg');
+    background-image: url('images/background4.jpg');
     background-size: 100%;
     height: 2300px;
 }
 
 .features5-1{
-    background-image: url('./images/background5.jpg');
+    background-image: url('images/background5.jpg');
     background-size: 100%;
     height: 1250px;
 }
 
 .features5-2{
-    background-image: url('./images/background5.jpg');
+    background-image: url('images/background5.jpg');
     background-size: 100%;
     height: 1600px;
 }
 
 .features6-1{
-    background-image: url('./images/background6.jpg');
+    background-image: url('images/background6.jpg');
     background-size: 100%;
     height: 900px;
 }
 
 .features6-2{
-    background-image: url('./images/background6.jpg');
+    background-image: url('images/background6.jpg');
     background-size: 100%;
     height: 1250px;
 }
 
 .features7-1{
-    background-image: url('./images/background7.jpg');
+    background-image: url('images/background7.jpg');
     background-size: 100%;
     height: 900px;
 }
 
 .features7-2{
-    background-image: url('./images/background7.jpg');
+    background-image: url('images/background7.jpg');
     background-size: 100%;
     height: 1250px;
 }
 
 .features8-1{
-    background-image: url('./images/background8.jpg');
+    background-image: url('images/background8.jpg');
     background-size: 100%;
     height: 900px;
 }
 
 .features8-2{
-    background-image: url('./images/background8.jpg');
+    background-image: url('images/background8.jpg');
     background-size: 100%;
     height: 1250px;
 }
