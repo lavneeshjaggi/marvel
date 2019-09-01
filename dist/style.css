@@ -1,0 +1,831 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER*/ 
+
+nav{
+    background: black;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 64px 0px 0px;    
+    text-align: center;
+}
+
+li:first-child{
+    margin-left: -4px; 
+}
+
+a{
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.active{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.logo{
+    background-image: url('./images/logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40px;
+    position: relative;
+    text-indent: -99999px;
+    top: -10px;
+    width: 100px;
+
+}
+
+.background1{
+    background-image: url('./images/home.jpg');
+    background-position: 0px -165px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background2{
+    background-image: url('./images/about.jpg');
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background3{
+    background-image: url('./images/characters.jpg');
+    background-position: 0px -65px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background4{
+    background-image: url('./images/comics.jpg');
+    background-position: 0px -60px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background5{
+    background-image: url('./images/movies.jpg');
+    background-position: 0px -80px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background6{
+    background-image: url('./images/threats.jpg');
+    background-position: 0px -90px;
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background7{
+    background-image: url('./images/tvshows.jpg');
+    background-position: 0px -150px;
+    background-position-x: -50px;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+.background8{
+    background-image: url('./images/x-universe.jpg');
+    background-repeat: no-repeat;
+    background-size: 1366px;
+    color: White;
+    height: 434px;
+}
+
+/*section*/
+
+.features1{
+    background-image: url('./images/background1.jpg');
+    background-size: 100%;
+    flex-wrap: wrap;
+    height: 2800px;
+}
+
+.features2-1{
+    background-image: url('./images/background2.jpg');
+    background-size: 100%;
+    height: 1350px;
+}
+
+.features2-2{
+    background-image: url('./images/background2.jpg');
+    background-size: 100%;
+    height: 2000px;
+}
+
+.features3-1{
+    background-image: url('./images/background3.jpg');
+    background-size: 100%;
+    height: 2360px;
+}
+
+.features3-2{
+    background-image: url('./images/background3.jpg');
+    background-size: 100%;
+    height: 3410px;
+}
+
+.features4-1{
+    background-image: url('./images/background4.jpg');
+    background-size: 100%;
+    height: 1600px;
+}
+
+.features4-2{
+    background-image: url('./images/background4.jpg');
+    background-size: 100%;
+    height: 2300px;
+}
+
+.features5-1{
+    background-image: url('./images/background5.jpg');
+    background-size: 100%;
+    height: 1250px;
+}
+
+.features5-2{
+    background-image: url('./images/background5.jpg');
+    background-size: 100%;
+    height: 1600px;
+}
+
+.features6-1{
+    background-image: url('./images/background6.jpg');
+    background-size: 100%;
+    height: 900px;
+}
+
+.features6-2{
+    background-image: url('./images/background6.jpg');
+    background-size: 100%;
+    height: 1250px;
+}
+
+.features7-1{
+    background-image: url('./images/background7.jpg');
+    background-size: 100%;
+    height: 900px;
+}
+
+.features7-2{
+    background-image: url('./images/background7.jpg');
+    background-size: 100%;
+    height: 1250px;
+}
+
+.features8-1{
+    background-image: url('./images/background8.jpg');
+    background-size: 100%;
+    height: 900px;
+}
+
+.features8-2{
+    background-image: url('./images/background8.jpg');
+    background-size: 100%;
+    height: 1250px;
+}
+
+.abo{
+    color: lightgray;
+}
+
+.about-1 li{
+    color: white;
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 50px 110px;
+}
+
+.about-1 p{
+    color: white;
+    font-size: 180%;
+    margin: auto;
+    width: 84%;
+}
+
+.about-2 li{
+    color: white;
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 50px 110px;
+}
+
+.about-2 p{
+    color: white;
+    font-size: 180%;
+    margin: auto;
+    width: 84%;
+}
+
+.char a{
+    color: lightgray;         
+}
+
+.char a:hover{
+    color: rgb(255,211,0);     
+    text-decoration: none;
+}
+
+.character{
+    color: rgb(255,211,0);     
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.character a{
+    color: lightgray;
+}
+
+.character a:hover{
+    color: white;
+}
+
+.characters-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.characters-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.characters-1 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.characters-1 a:hover{
+    color: rgb(255,211,0); 
+    text-decoration: none;
+}
+
+.characters-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.characters-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.characters-2 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.characters-2 a:hover{
+    color: rgb(255,211,0); 
+    text-decoration: none;
+}
+
+.com a{
+    color: lightgray;         
+}
+
+.com a:hover{
+    color: rgb(18,231,114); 
+    text-decoration: none;
+}
+
+.comic{
+    color: rgb(18,231,114);     
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.comic a{
+    color: lightgray;
+}
+
+.comic a:hover{
+    color: white;
+}
+
+.comics-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.comics-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.comics-1 figure img{
+    border: 1px solid white;    
+    box-shadow: black 0px 10px 10px;
+    height:265px;
+    width: 179px;
+}
+
+.comics-1 a:hover{
+    color: rgb(18,231,114); 
+    text-decoration: none;
+}
+
+.comics-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.comics-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.comics-2 figure img{
+    border: 1px solid white;    
+    box-shadow: black 0px 10px 10px;
+    height:265px;
+    width: 179px;
+}
+
+.comics-2 a:hover{
+    color: rgb(18,231,114); 
+    text-decoration: none;
+}
+
+.mov a{
+    color: lightgray;         
+}
+
+.mov a:hover{
+    color: rgb(255,139,0);
+    text-decoration: none;
+}
+
+.movie{
+    color: rgb(255,139,0);
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.movie a{
+    color: lightgray;
+}
+
+.movie a:hover{
+    color: white;
+}
+
+
+.movies-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.movies-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.movies-1 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.movies-1 a:hover{
+    color: rgb(255,139,0);
+    text-decoration: none;
+}
+
+.movies-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.movies-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.movies-2 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.movies-2 a:hover{
+    color: rgb(255,139,0);
+    text-decoration: none;
+}
+
+.thr a{
+    color: lightgray;         
+}
+
+.thr a:hover{
+    color: rgb(255,1,48);     
+    text-decoration: none;
+}
+
+.threat{
+    color: rgb(255,1,48);       
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.threat a{
+    color: lightgray;
+}
+
+.threat a:hover{
+    color: white;
+}
+
+
+.threats-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.threats-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.threats-1 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.threats-1 a:hover{
+    color: rgb(255,1,48);
+    text-decoration: none;
+}
+
+.threats-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.threats-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.threats-2 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    height: 265px;
+    width: 179px;
+}
+
+.threats-2 a:hover{
+    color: rgb(255,1,48);
+    text-decoration: none;
+}
+
+.tv a{
+    color: lightgray;         
+}
+
+.tv a:hover{
+    color: rgb(38,110,246);
+    text-decoration: none;
+}
+
+.tvshow{
+    color: rgb(38,110,246);
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.tvshow a{
+    color: lightgray;
+}
+
+.tvshow a:hover{
+    color: white;
+}
+
+
+.tvshows-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.tvshows-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.tvshows-1 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    width: 179px;
+    height: 265px;
+}
+
+.tvshows-1 a:hover{
+    color: rgb(38,110,246);
+    text-decoration: none;
+}
+
+.tvshows-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.tvshows-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.tvshows-2 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    width: 179px;
+    height: 265px;
+}
+
+.tvshows-2 a:hover{
+    color: rgb(38,110,246);
+    text-decoration: none;
+}
+
+.uni a{
+    color: lightgray;         
+}
+
+.uni a:hover{
+    color: rgb(228,41,242);
+    text-decoration: none;
+}
+
+.x{
+    color: rgb(228,41,242);
+    font-size: 280%;
+    margin: 0px;
+    padding: 50px 0px 0px 110px;
+}
+
+.x a{
+    color: lightgray;
+}
+
+.x a:hover{
+    color: white;
+}
+
+.x-universe-1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.x-universe-1 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.x-universe-1 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    width: 179px;
+    height: 265px;
+}
+
+.x-universe-1 a:hover{
+    color: rgb(228,41,242);
+    text-decoration: none;
+}
+
+.x-universe-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 50px 100px 0px 50px; 
+    width: 88%;
+}
+
+.x-universe-2 figure{
+    color: black;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+
+.x-universe-2 figure img{
+    border: 1px solid white;
+    box-shadow: black 0px 10px 10px;
+    width: 179px;
+    height: 265px;
+}
+
+.x-universe-2 a:hover{
+    color: rgb(228,41,242);
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer{
+    background: black;
+    color: lightgray;
+    display: flex;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: -16px;
+}
+
+.foot{
+    margin: 0px;
+    padding: 10px 0px 10px 583px;
+}
+
+button{
+    background: red;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 100%;
+    margin: 40px 0px 40px 630px;
+    padding: 10px;
+}
+
+button:hover{
+    background: darkred;
+}
+
+.hide1{
+    display: none;
+}
+
+.hide2{
+    display: none;
+}
+
+.hide3{
+    display: none;
+}
+
+.hide4{
+    display: none;
+}
+
+.hide5{
+    display: none;
+}
+
+.hide6{
+    display: none;
+}
+
+.hide7{
+    display: none;
+}
+
+.snapbtn{
+    margin: 10px 0px 10px 580px;
+}
+
+.revbtn{
+    display: none;
+    margin: 10px 0px 10px 625px;
+}
+
+.panel{
+    display: none;
+}
+
+.panelactive{
+    color: white;
+    display: block;
+}
+
+.anim:hover{
+    animation-name: myanimation;
+    animation-duration: 1s;
+}
+
+@keyframes myanimation{
+    0%{
+    }
+
+}
