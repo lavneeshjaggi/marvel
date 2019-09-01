@@ -50,7 +50,7 @@ a:hover{
 
 }
 
-.background1 img{
+.background1{
     background-image: url('images/home.jpg');
     background-position: 0px -165px;
     background-repeat: no-repeat;
