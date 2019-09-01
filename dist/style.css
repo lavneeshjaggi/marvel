@@ -86,7 +86,7 @@ a:hover{
 }
 
 .background5{
-    background-image: url('images/movies.jpg');
+    background-image: url('images/movies.png');
     background-position: 0px -80px;
     background-repeat: no-repeat;
     background-size: 1366px;
@@ -168,13 +168,13 @@ a:hover{
 }
 
 .features5-1{
-    background-image: url('images/background5.jpg');
+    background-image: url('images/background5.png');
     background-size: 100%;
     height: 1250px;
 }
 
 .features5-2{
-    background-image: url('images/background5.jpg');
+    background-image: url('images/background5.png');
     background-size: 100%;
     height: 1600px;
 }
