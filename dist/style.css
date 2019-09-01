@@ -50,13 +50,21 @@ a:hover{
 
 }
 
-.background1{
+.background1 img{
+    height:434px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 1349px;
+
+    /*
     background-image: url('images/home.jpg');
     background-position: 0px -165px;
     background-repeat: no-repeat;
     background-size: 1366px;
     color: White;
     height: 434px;
+    */
 }
 
 .background2{
@@ -128,6 +136,8 @@ a:hover{
     background-size: 100%;
     flex-wrap: wrap;
     height: 2800px;
+    margin: 0;
+    padding: 0;
 }
 
 .features2-1{
